@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Files with Preview</title>
+    <link rel="stylesheet" href="send.css">
+</head>
+<body>
+    <center>
+        <div class="outerborder">
+            <!-- Input field for name -->
+            <input type="text" id="name-input" placeholder="Enter your name" class="name-input">
+
+            <!-- File input field for multiple file attachments -->
+            <div id="file-inputs">
+                <label for="file-upload" class="file-label">Attach files</label>
+                <input type="file" id="file-upload" class="file-upload" onchange="handleFileSelect(event)" multiple>
+            </div>
+        </div>
+
+        <!-- Preview section for selected files -->
+        <div id="preview-container" class="preview-container">
+            <h3>File Preview</h3>
+            <div id="file-preview-list" class="file-preview-list"></div>
+        </div>
+
+        <!-- Submit button -->
+        <button class="submit-btn" onclick="submitFiles()">Submit</button>
+    </center>
+    <script src="send.js"></script>
+</body>
+</html>
