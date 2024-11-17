@@ -14,4 +14,4 @@
 
 final level will start.
 
-Currently working on the site . To make ot better , "Here i making this portion for my own business".
+Currently working on the site . To make it better , "Here i making this portion for my own business".
